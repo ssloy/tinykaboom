@@ -48,7 +48,8 @@ int main() {
             if (sphere_trace(Vec3f(0, 0, 3), Vec3f(dir_x, dir_y, dir_z).normalize(), hit)) { // the camera is placed to (0,0,3) and it looks along the -z axis
                 Vec3f light_dir = (Vec3f(10, 10, 10) - hit).normalize();                     // one light is placed to (10,10,10)
                 float light_intensity  = std::max(0.4f, light_dir*distance_field_normal(hit));
-                framebuffer[i+j*width] = Vec3f(1, 1, 1)*light_intensity;
+                float displacement = (sin(16*hit.x)*sin(16*hit.y)*sin(16*hit.z) + 1.)/2.;
+                framebuffer[i+j*width] = Vec3f(1, 1, 1)*displacement*light_intensity;
             } else {
                 framebuffer[i+j*width] = Vec3f(0.2, 0.7, 0.8); // background color
             }
