@@ -1,6 +1,6 @@
 # KABOOM! in 180 lines of bare C++
 
-This repository is a teaching aid for my computer graphics lectures. It is not meant to be the ultimate rendering code or even physically realistic. It is meant to be **simple**. This project is distributed under the [DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE](https://en.wikipedia.org/wiki/WTFPL).
+This repository is a teaching aid for my computer graphics lectures. It is not meant to produce the ultimate or even physically realistic renders. It is meant to be **simple**. This project is distributed under the [DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE](https://en.wikipedia.org/wiki/WTFPL).
 
 **Check [the article](https://github.com/ssloy/tinykaboom/wiki) that accompanies the source code.**
 
