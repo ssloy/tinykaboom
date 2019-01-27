@@ -6,7 +6,7 @@ This repository is a teaching aid for my computer graphics lectures. It is not m
 
 This project is closely related to my  [software raytracer](https://github.com/ssloy/tinyraytracer/wiki). If you are looking for a software rasterizer, check the [other part of the lectures](https://github.com/ssloy/tinyrenderer/wiki).
 
-In my lectures I tend to avoid third party libraries as long as it is reasonable, because it forces to understand what is happening under the hood. So, the raytracing in 180 lines of plain C++ give us this result:
+In my lectures I tend to avoid third party libraries as long as it is reasonable, because it forces to understand what is happening under the hood. So, the raytracing in 180 lines of plain C++ produces this result:
 ![](https://raw.githubusercontent.com/ssloy/tinykaboom/master/out.jpg)
 
 ## compilation
