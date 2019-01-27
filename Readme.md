@@ -1,4 +1,4 @@
-# Tiny KABOOM in less than 200 lines of bare C++
+# KABOOM! in 180 lines of bare C++
 
 This repository is a support code for my computer graphics lectures. It is not meant to be the ultimate rendering code or even physically realistic. It is meant to be **simple**. This project is distributed under the [DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE](https://en.wikipedia.org/wiki/WTFPL).
 
