@@ -25,3 +25,10 @@ You can open the project in Gitpod, a free online dev evironment for GitHub:
 
 On open, the editor will compile & run the program as well as open the resulting image in the editor's preview.
 Just change the code in the editor and rerun the script (use the terminal's history) to see updated images.
+
+## Homework
+The possibilities are infinte. For example, you can add the environment map and some transparency:  
+![](https://raw.githubusercontent.com/ssloy/tinykaboom/homework_assignment/envmap1.jpg)
+
+Add other objects and illuminate them:
+![](https://raw.githubusercontent.com/ssloy/tinykaboom/homework_assignment/envmap2.jpg)
