@@ -96,7 +96,7 @@ int main() {
     std::vector<Vec3f> framebuffer(width*height);
 
 #pragma omp parallel for
-    for (size_t j = 0; j<height; j++) { // actual rendering loop
+    for (int j = 0; j<height; j++) { // actual rendering loop
         for (size_t i = 0; i<width; i++) {
             float dir_x =  (i + 0.5) -  width/2.;
             float dir_y = -(j + 0.5) + height/2.;    // this flips the image at the same time
@@ -124,4 +124,3 @@ int main() {
 
     return 0;
 }
-

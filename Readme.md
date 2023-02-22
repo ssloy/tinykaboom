@@ -10,13 +10,13 @@ In my lectures I tend to avoid third party libraries as long as it is reasonable
 ![](https://raw.githubusercontent.com/ssloy/tinykaboom/master/out.jpg)
 
 ## compilation
+
 ```sh
 git clone https://github.com/ssloy/tinykaboom.git
 cd tinykaboom
-mkdir build
-cd build
-cmake ..
-make
+cmake -Bbuild
+cmake --build build
+build/tinykaboom
 ```
 
 You can open the project in Gitpod, a free online dev evironment for GitHub:
@@ -27,7 +27,7 @@ On open, the editor will compile & run the program as well as open the resulting
 Just change the code in the editor and rerun the script (use the terminal's history) to see updated images.
 
 ## Homework
-The possibilities are infinte. For example, you can add the environment map and some transparency:  
+The possibilities are infinte. For example, you can add the environment map and some transparency:
 ![](https://raw.githubusercontent.com/ssloy/tinykaboom/homework_assignment/envmap1.jpg)
 
 Add other objects and illuminate them:

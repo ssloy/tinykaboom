@@ -2,11 +2,8 @@ image:
   file: Dockerfile
 tasks:
 - command: >
-    mkdir --parents build &&
-    cd build &&
-    cmake .. &&
-    make &&
-    ./tinykaboom &&
+    cmake -Bbuild &&
+    cmake --build build &&
+    build/tinykaboom &&
     pnmtopng out.ppm > out.png &&
-    open out.png &&
-    cd ..
+    open out.png
